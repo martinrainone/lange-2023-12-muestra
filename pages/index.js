@@ -103,7 +103,8 @@ export default function Home() {
               number='11'
               title='Napoli'
               profesor='Nelda Pavanello.'
-              interpretes='Laura Nazareth Rojas García, Johanna Ciliberto.'
+              solista='si'
+              interpretes='Johanna Ciliberto.'
             />
             <Coreo
               number='12'
@@ -142,12 +143,12 @@ export default function Home() {
               profesor='Lucila Iglesias.'
               interpretes='Julieta Boquin, Guillermina Laigle Sola.'
             />
-            <Coreo
-              number='18'
-              title='El puntazo de Juan D&apos;sarienzo.'
-              profesor='.'
-              interpretes='Mariela Curia, José Salinas.'
-            />
+            <div className={'lg-bg-grey rounded-md shadow-md my-4 p-6 space-y-2'}>
+              <div className={'font-extralight lg-text-gold-80 text-5xl'}>18</div>
+              <h1 className={'lg-text-gold text-3xl'}>El puntazo de Juan D&apos;sarienzo</h1>
+              <p className={'lg-text-gold-80 text-sm uppercase'}>Intérpretes</p>
+              <p className={'font-light lg-text-grey'}>Mariela Curia, José Salinas.</p>
+            </div>
             <Coreo
               number='19'
               title='Dances of the Dolls'
